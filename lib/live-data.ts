@@ -2,7 +2,29 @@
 // Runs in the browser (Overpass supports CORS), so the app can be a static export.
 import { withBasePath } from "./base-path";
 
-const OVERPASS_URL = "https://maps.mail.ru/osm/tools/overpass/api/interpreter";
+// Public Overpass servers, tried in order. The first one often times out.
+const OVERPASS_URLS = [
+  "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "https://overpass-api.de/api/interpreter",
+];
+
+async function postOverpass(query: string): Promise<any> {
+  let lastError: unknown;
+  for (const url of OVERPASS_URLS) {
+    try {
+      const res = await fetch(url, {
+        method: "POST",
+        body: `data=${encodeURIComponent(query)}`,
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      });
+      if (!res.ok) throw new Error(`Overpass ${res.status} from ${url}`);
+      return await res.json();
+    } catch (e) {
+      lastError = e;
+    }
+  }
+  throw lastError;
+}
 const SOURCE = "OpenStreetMap Overpass API (live)";
 const DELAY_BETWEEN_QUERIES_MS = 2000;
 
@@ -73,12 +95,7 @@ async function queryDistrictFast(district: string, bounds: [number, number, numb
 .comm out count;`;
 
   try {
-    const res = await fetch(OVERPASS_URL, {
-      method: "POST",
-      body: `data=${encodeURIComponent(query)}`,
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    });
-    const data = await res.json();
+    const data = await postOverpass(query);
     const els = data.elements || [];
     const education = Number(els[0]?.tags?.total || 0);
     const healthcare = Number(els[1]?.tags?.total || 0);
