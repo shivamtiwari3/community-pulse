@@ -1,0 +1,711 @@
+{
+  "fetchedAt": "2026-06-26T12:31:32.913Z",
+  "source": "OpenStreetMap Overpass API",
+  "description": "Real amenity counts for UAE districts \u2014 includes nodes and ways",
+  "totalDistricts": 33,
+  "totalAmenities": 31128,
+  "districts": [
+    {
+      "name": "Saadiyat Island",
+      "emirate": "Abu Dhabi",
+      "lat": 24.545,
+      "lng": 54.431,
+      "population": 8000,
+      "bounds": [
+        24.52,
+        54.38,
+        24.58,
+        54.47
+      ],
+      "amenities": {
+        "education": 7,
+        "healthcare": 5,
+        "retail": 22,
+        "mobility": 23,
+        "community": 25
+      },
+      "total": 82
+    },
+    {
+      "name": "Al Maryah Island",
+      "emirate": "Abu Dhabi",
+      "lat": 24.5,
+      "lng": 54.39,
+      "population": 12000,
+      "bounds": [
+        24.49,
+        54.37,
+        24.51,
+        54.41
+      ],
+      "amenities": {
+        "education": 3,
+        "healthcare": 53,
+        "retail": 1002,
+        "mobility": 70,
+        "community": 40
+      },
+      "total": 1168
+    },
+    {
+      "name": "Yas Island",
+      "emirate": "Abu Dhabi",
+      "lat": 24.49,
+      "lng": 54.603,
+      "population": 8000,
+      "bounds": [
+        24.47,
+        54.57,
+        24.52,
+        54.65
+      ],
+      "amenities": {
+        "education": 2,
+        "healthcare": 6,
+        "retail": 232,
+        "mobility": 16,
+        "community": 18
+      },
+      "total": 274
+    },
+    {
+      "name": "Al Reem Island",
+      "emirate": "Abu Dhabi",
+      "lat": 24.493,
+      "lng": 54.406,
+      "population": 59725,
+      "bounds": [
+        24.48,
+        54.38,
+        24.51,
+        54.42
+      ],
+      "amenities": {
+        "education": 9,
+        "healthcare": 15,
+        "retail": 294,
+        "mobility": 48,
+        "community": 31
+      },
+      "total": 397
+    },
+    {
+      "name": "Khalifa City",
+      "emirate": "Abu Dhabi",
+      "lat": 24.42,
+      "lng": 54.58,
+      "population": 85374,
+      "bounds": [
+        24.39,
+        54.55,
+        24.44,
+        54.64
+      ],
+      "amenities": {
+        "education": 28,
+        "healthcare": 15,
+        "retail": 59,
+        "mobility": 15,
+        "community": 38
+      },
+      "total": 155
+    },
+    {
+      "name": "Mohammed Bin Zayed City",
+      "emirate": "Abu Dhabi",
+      "lat": 24.32,
+      "lng": 54.54,
+      "population": 85000,
+      "bounds": [
+        24.29,
+        54.5,
+        24.36,
+        54.6
+      ],
+      "amenities": {
+        "education": 30,
+        "healthcare": 52,
+        "retail": 494,
+        "mobility": 18,
+        "community": 57
+      },
+      "total": 651
+    },
+    {
+      "name": "Mussafah",
+      "emirate": "Abu Dhabi",
+      "lat": 24.35,
+      "lng": 54.5,
+      "population": 278035,
+      "bounds": [
+        24.32,
+        54.46,
+        24.39,
+        54.55
+      ],
+      "amenities": {
+        "education": 29,
+        "healthcare": 79,
+        "retail": 1115,
+        "mobility": 37,
+        "community": 62
+      },
+      "total": 1322
+    },
+    {
+      "name": "Al Shamkha",
+      "emirate": "Abu Dhabi",
+      "lat": 24.34,
+      "lng": 54.72,
+      "population": 45000,
+      "bounds": [
+        24.31,
+        54.68,
+        24.38,
+        54.76
+      ],
+      "amenities": {
+        "education": 8,
+        "healthcare": 1,
+        "retail": 2,
+        "mobility": 0,
+        "community": 9
+      },
+      "total": 20
+    },
+    {
+      "name": "Corniche",
+      "emirate": "Abu Dhabi",
+      "lat": 24.472,
+      "lng": 54.338,
+      "population": 95000,
+      "bounds": [
+        24.45,
+        54.31,
+        24.49,
+        54.37
+      ],
+      "amenities": {
+        "education": 31,
+        "healthcare": 141,
+        "retail": 1149,
+        "mobility": 150,
+        "community": 143
+      },
+      "total": 1614
+    },
+    {
+      "name": "Al Raha Beach",
+      "emirate": "Abu Dhabi",
+      "lat": 24.45,
+      "lng": 54.585,
+      "population": 25000,
+      "bounds": [
+        24.44,
+        54.55,
+        24.47,
+        54.62
+      ],
+      "amenities": {
+        "education": 0,
+        "healthcare": 7,
+        "retail": 36,
+        "mobility": 5,
+        "community": 5
+      },
+      "total": 53
+    },
+    {
+      "name": "Dubai Marina",
+      "emirate": "Dubai",
+      "lat": 25.08,
+      "lng": 55.14,
+      "population": 78843,
+      "bounds": [
+        25.07,
+        55.12,
+        25.1,
+        55.16
+      ],
+      "amenities": {
+        "education": 6,
+        "healthcare": 50,
+        "retail": 231,
+        "mobility": 210,
+        "community": 15
+      },
+      "total": 512
+    },
+    {
+      "name": "Downtown Dubai",
+      "emirate": "Dubai",
+      "lat": 25.197,
+      "lng": 55.274,
+      "population": 29922,
+      "bounds": [
+        25.185,
+        55.26,
+        25.21,
+        55.29
+      ],
+      "amenities": {
+        "education": 5,
+        "healthcare": 20,
+        "retail": 167,
+        "mobility": 86,
+        "community": 25
+      },
+      "total": 303
+    },
+    {
+      "name": "Jumeirah Village Circle",
+      "emirate": "Dubai",
+      "lat": 25.065,
+      "lng": 55.21,
+      "population": 44363,
+      "bounds": [
+        25.04,
+        55.19,
+        25.08,
+        55.23
+      ],
+      "amenities": {
+        "education": 8,
+        "healthcare": 14,
+        "retail": 93,
+        "mobility": 1,
+        "community": 50
+      },
+      "total": 166
+    },
+    {
+      "name": "Business Bay",
+      "emirate": "Dubai",
+      "lat": 25.185,
+      "lng": 55.262,
+      "population": 32354,
+      "bounds": [
+        25.17,
+        55.25,
+        25.2,
+        55.28
+      ],
+      "amenities": {
+        "education": 14,
+        "healthcare": 13,
+        "retail": 152,
+        "mobility": 81,
+        "community": 28
+      },
+      "total": 288
+    },
+    {
+      "name": "Al Barsha",
+      "emirate": "Dubai",
+      "lat": 25.113,
+      "lng": 55.2,
+      "population": 88357,
+      "bounds": [
+        25.09,
+        55.18,
+        25.13,
+        55.22
+      ],
+      "amenities": {
+        "education": 22,
+        "healthcare": 38,
+        "retail": 504,
+        "mobility": 127,
+        "community": 32
+      },
+      "total": 723
+    },
+    {
+      "name": "Deira",
+      "emirate": "Dubai",
+      "lat": 25.27,
+      "lng": 55.33,
+      "population": 547557,
+      "bounds": [
+        25.25,
+        55.3,
+        25.29,
+        55.36
+      ],
+      "amenities": {
+        "education": 36,
+        "healthcare": 131,
+        "retail": 4386,
+        "mobility": 260,
+        "community": 102
+      },
+      "total": 4915
+    },
+    {
+      "name": "Bur Dubai",
+      "emirate": "Dubai",
+      "lat": 25.25,
+      "lng": 55.3,
+      "population": 390060,
+      "bounds": [
+        25.23,
+        55.27,
+        25.27,
+        55.33
+      ],
+      "amenities": {
+        "education": 25,
+        "healthcare": 172,
+        "retail": 2359,
+        "mobility": 274,
+        "community": 104
+      },
+      "total": 2934
+    },
+    {
+      "name": "International City",
+      "emirate": "Dubai",
+      "lat": 25.165,
+      "lng": 55.405,
+      "population": 120353,
+      "bounds": [
+        25.14,
+        55.38,
+        25.18,
+        55.43
+      ],
+      "amenities": {
+        "education": 4,
+        "healthcare": 11,
+        "retail": 100,
+        "mobility": 44,
+        "community": 23
+      },
+      "total": 182
+    },
+    {
+      "name": "Al Nahda Dubai",
+      "emirate": "Dubai",
+      "lat": 25.295,
+      "lng": 55.37,
+      "population": 112442,
+      "bounds": [
+        25.28,
+        55.35,
+        25.31,
+        55.39
+      ],
+      "amenities": {
+        "education": 30,
+        "healthcare": 100,
+        "retail": 858,
+        "mobility": 53,
+        "community": 31
+      },
+      "total": 1072
+    },
+    {
+      "name": "Dubai Silicon Oasis",
+      "emirate": "Dubai",
+      "lat": 25.12,
+      "lng": 55.38,
+      "population": 60804,
+      "bounds": [
+        25.1,
+        55.36,
+        25.14,
+        55.4
+      ],
+      "amenities": {
+        "education": 17,
+        "healthcare": 18,
+        "retail": 109,
+        "mobility": 57,
+        "community": 49
+      },
+      "total": 250
+    },
+    {
+      "name": "Palm Jumeirah",
+      "emirate": "Dubai",
+      "lat": 25.112,
+      "lng": 55.138,
+      "population": 27745,
+      "bounds": [
+        25.09,
+        55.11,
+        25.14,
+        55.17
+      ],
+      "amenities": {
+        "education": 23,
+        "healthcare": 9,
+        "retail": 50,
+        "mobility": 172,
+        "community": 21
+      },
+      "total": 275
+    },
+    {
+      "name": "Dubai Hills",
+      "emirate": "Dubai",
+      "lat": 25.11,
+      "lng": 55.25,
+      "population": 35000,
+      "bounds": [
+        25.09,
+        55.23,
+        25.13,
+        55.27
+      ],
+      "amenities": {
+        "education": 5,
+        "healthcare": 3,
+        "retail": 74,
+        "mobility": 13,
+        "community": 6
+      },
+      "total": 101
+    },
+    {
+      "name": "Al Nahda Sharjah",
+      "emirate": "Sharjah",
+      "lat": 25.305,
+      "lng": 55.37,
+      "population": 106103,
+      "bounds": [
+        25.29,
+        55.35,
+        25.32,
+        55.39
+      ],
+      "amenities": {
+        "education": 14,
+        "healthcare": 108,
+        "retail": 916,
+        "mobility": 45,
+        "community": 27
+      },
+      "total": 1110
+    },
+    {
+      "name": "Al Majaz",
+      "emirate": "Sharjah",
+      "lat": 25.34,
+      "lng": 55.39,
+      "population": 116503,
+      "bounds": [
+        25.32,
+        55.37,
+        25.36,
+        55.41
+      ],
+      "amenities": {
+        "education": 13,
+        "healthcare": 187,
+        "retail": 3031,
+        "mobility": 72,
+        "community": 99
+      },
+      "total": 3402
+    },
+    {
+      "name": "Al Qasimia",
+      "emirate": "Sharjah",
+      "lat": 25.35,
+      "lng": 55.39,
+      "population": 159723,
+      "bounds": [
+        25.34,
+        55.37,
+        25.37,
+        55.41
+      ],
+      "amenities": {
+        "education": 16,
+        "healthcare": 132,
+        "retail": 2268,
+        "mobility": 67,
+        "community": 102
+      },
+      "total": 2585
+    },
+    {
+      "name": "Muwaileh",
+      "emirate": "Sharjah",
+      "lat": 25.31,
+      "lng": 55.45,
+      "population": 96926,
+      "bounds": [
+        25.29,
+        55.43,
+        25.33,
+        55.47
+      ],
+      "amenities": {
+        "education": 18,
+        "healthcare": 4,
+        "retail": 94,
+        "mobility": 2,
+        "community": 26
+      },
+      "total": 144
+    },
+    {
+      "name": "Al Taawun",
+      "emirate": "Sharjah",
+      "lat": 25.32,
+      "lng": 55.38,
+      "population": 61564,
+      "bounds": [
+        25.3,
+        55.36,
+        25.34,
+        55.4
+      ],
+      "amenities": {
+        "education": 7,
+        "healthcare": 178,
+        "retail": 1690,
+        "mobility": 38,
+        "community": 60
+      },
+      "total": 1973
+    },
+    {
+      "name": "Ajman Downtown",
+      "emirate": "Ajman",
+      "lat": 25.41,
+      "lng": 55.44,
+      "population": 273474,
+      "bounds": [
+        25.39,
+        55.42,
+        25.43,
+        55.46
+      ],
+      "amenities": {
+        "education": 23,
+        "healthcare": 72,
+        "retail": 1710,
+        "mobility": 23,
+        "community": 50
+      },
+      "total": 1878
+    },
+    {
+      "name": "Al Rashidiya Ajman",
+      "emirate": "Ajman",
+      "lat": 25.39,
+      "lng": 55.46,
+      "population": 87630,
+      "bounds": [
+        25.37,
+        55.44,
+        25.41,
+        55.48
+      ],
+      "amenities": {
+        "education": 42,
+        "healthcare": 87,
+        "retail": 1204,
+        "mobility": 8,
+        "community": 62
+      },
+      "total": 1403
+    },
+    {
+      "name": "RAK City",
+      "emirate": "Ras Al Khaimah",
+      "lat": 25.79,
+      "lng": 55.96,
+      "population": 150000,
+      "bounds": [
+        25.76,
+        55.93,
+        25.82,
+        55.99
+      ],
+      "amenities": {
+        "education": 29,
+        "healthcare": 23,
+        "retail": 110,
+        "mobility": 1,
+        "community": 123
+      },
+      "total": 286
+    },
+    {
+      "name": "Al Hamra RAK",
+      "emirate": "Ras Al Khaimah",
+      "lat": 25.72,
+      "lng": 55.79,
+      "population": 12000,
+      "bounds": [
+        25.7,
+        55.77,
+        25.74,
+        55.81
+      ],
+      "amenities": {
+        "education": 2,
+        "healthcare": 3,
+        "retail": 28,
+        "mobility": 0,
+        "community": 17
+      },
+      "total": 50
+    },
+    {
+      "name": "Fujairah City",
+      "emirate": "Fujairah",
+      "lat": 25.13,
+      "lng": 56.33,
+      "population": 114356,
+      "bounds": [
+        25.1,
+        56.3,
+        25.16,
+        56.36
+      ],
+      "amenities": {
+        "education": 26,
+        "healthcare": 36,
+        "retail": 271,
+        "mobility": 6,
+        "community": 75
+      },
+      "total": 414
+    },
+    {
+      "name": "UAQ City",
+      "emirate": "Umm Al Quwain",
+      "lat": 25.56,
+      "lng": 55.55,
+      "population": 72000,
+      "bounds": [
+        25.53,
+        55.52,
+        25.59,
+        55.58
+      ],
+      "amenities": {
+        "education": 5,
+        "healthcare": 17,
+        "retail": 226,
+        "mobility": 0,
+        "community": 178
+      },
+      "total": 426
+    }
+  ],
+  "populationSources": {
+    "Abu Dhabi": "SCAD Census 2023/2024, UrbFact",
+    "Dubai": "DSC Statistical Yearbook 2024 (official community-level data)",
+    "Sharjah": "DSCD Census 2017",
+    "Ajman": "Ajman Statistics and Competitiveness Center Census 2017",
+    "Ras Al Khaimah": "RAK Government Media Office 2023",
+    "Fujairah": "Fujairah Statistics Center 2023",
+    "Umm Al Quwain": "World Population Review estimate 2026"
+  }
+}
